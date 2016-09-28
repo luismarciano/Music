@@ -1,0 +1,302 @@
+{
+  "general": {
+    "userAgentRegexes": [],
+    "replaceStrings": [],
+    "iosBundleId": "co.uk.childsplayclothing.app",
+    "androidPackageName": "co.uk.childsplayclothing.app",
+    "deviceRegKey": "2c2bvm9g8db13j8r05v05zktu4",
+    "publicKey": "yrbzr",
+    "appName": "Childsplay Clothing",
+    "initialUrl": "http://childsplayclothing.folkuat.com/",
+    "useCrosswalkWebView": true,
+    "useWKWebView": false,
+    "userAgentAdd": "gonative",
+    "androidVersionName": "CP v1.0"
+  },
+  "navigation": {
+    "androidPullToRefresh": true,
+    "iosPullToRefresh": true,
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ],
+      "tabMenus": [
+        {
+          "id": "1",
+          "items": [
+            {
+              "subLinks": []
+            }
+          ]
+        }
+      ],
+      "active": false
+    },
+    "sidebarNavigation": {
+      "menuSelectionConfig": {
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ],
+        "testURL": null
+      },
+      "menus": [
+        {
+          "name": "default",
+          "active": false,
+          "items": [
+            {
+              "label": "Sample Home",
+              "url": "http://childs.forpreviewonly.com/uk//home",
+              "subLinks": []
+            },
+            {
+              "label": "Sample About",
+              "url": "http://childs.forpreviewonly.com/uk//about",
+              "subLinks": []
+            }
+          ]
+        },
+        {
+          "name": "loggedIn",
+          "active": false,
+          "items": [
+            {
+              "label": "Sample Home",
+              "url": "http://childs.forpreviewonly.com/uk//home",
+              "subLinks": []
+            },
+            {
+              "label": "Sample About",
+              "url": "http://childs.forpreviewonly.com/uk//about",
+              "subLinks": []
+            }
+          ]
+        }
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "mailto:.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ],
+      "active": false
+    },
+    "navigationTitles": {
+      "titles": [
+        {}
+      ],
+      "active": false
+    },
+    "redirects": [],
+    "ignorePageFinishedRegexes": [],
+    "toolbarNavigation": {
+      "visibility": "anyItemEnabled",
+      "items": [
+        {
+          "system": "back"
+        }
+      ]
+    },
+    "navigationLevels": {
+      "levels": [
+        {}
+      ],
+      "active": false
+    },
+    "deepLinkDomains": [
+      "http://childs.forpreviewonly.com/uk/"
+    ],
+    "iosShowRefreshButton": false,
+    "androidShowRefreshButton": false
+  },
+  "styling": {
+    "transitionInteractiveDelayMax": 0.2,
+    "menuAnimationDuration": 0.15,
+    "iosLaunchImages": {
+      "ios_launch_2208x1242": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_gbzcfwhgtzp0g_2208x1242.png",
+      "ios_launch_1242x2208": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_u5j8teru4rbd0_1242x2208.png",
+      "ios_launch_750x1334": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_e08uadkzj5ap0_750x1334.png",
+      "ios_launch_2048x1536": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_04t1b0h7yxr3w_2048x1536.png",
+      "ios_launch_1536x2048": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_u7bnmzaa2qtbm_1536x2048.png",
+      "ios_launch_1024x768": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_ty799c1g3behr_1024x768.png",
+      "ios_launch_768x1024": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_rtfhektjfraj6_768x1024.png",
+      "ios_launch_640x1136": "https://s3.amazonaws.com/gonative/images_generated/1467474296117_8mcwzv13v5x0a_640x1136.png",
+      "ios_launch_640x960": "https://s3.amazonaws.com/gonative/images_generated/1467474296116_feymwxf4frxr6_640x960.png"
+    },
+    "androidLaunchImages": {
+      "xxxhdpi": "https://s3.amazonaws.com/gonative/images_generated/1467395765910_62ypj0zf26c64_720x720.9.png",
+      "xxhdpi": "https://s3.amazonaws.com/gonative/images_generated/1467395765909_c3m0dd869qyac_540x540.9.png",
+      "xhdpi": "https://s3.amazonaws.com/gonative/images_generated/1467395765909_05w8c0a1cgmpu_360x360.9.png",
+      "hdpi": "https://s3.amazonaws.com/gonative/images_generated/1467395765908_wb02mqxb29y0m_270x270.9.png",
+      "mdpi": "https://s3.amazonaws.com/gonative/images_generated/1467395765908_9rh9t67geuqc8_180x180.9.png"
+    },
+    "androidShowSplash": true,
+    "disableAnimations": false,
+    "hideWebviewAlpha": 0.5,
+    "androidNotificationIcon": "https://gonative.s3.amazonaws.com/uploads/tw2mj7jy67pby_1466846026702.png",
+    "androidStatusBarBackgroundColor": "#000000",
+    "iosSidebarTextColor": "#333333",
+    "iosTintColor": "#FFFFFF",
+    "iosTitleColor": "#333333",
+    "androidTabBarIndicatorColor": "#000000",
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarBackgroundColor": "#bdbdbd",
+    "androidSidebarSeparatorColor": "#585858",
+    "androidAccentColor": "#4F4F4F",
+    "androidPullToRefreshColor": "#777777",
+    "androidActionBarForegroundColor": "#000000",
+    "androidActionBarBackgroundColor": "#bdbdbd",
+    "androidSidebarForegroundColor": "#777777",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidTheme": "light",
+    "iosTheme": "light",
+    "navigationTitleImage": false,
+    "androidHideTitleInActionBar": false,
+    "iosSidebarFont": "Arial-BoldItalicMT",
+    "showNavigationBar": false,
+    "showActionBar": false,
+    "iosHeaderImage": "images/logo1.png",
+    "icon": "https://gonative.s3.amazonaws.com/uploads/tw02knjtwybq4_1467486183072.jpeg",
+    "forceViewportWidth": null
+  },
+  "forms": {
+    "interceptForms": {
+      "forms": []
+    },
+    "search": {
+      "searchTemplateURL": "http://childs.forpreviewonly.com/uk/catalogsearch/result/?filter%5B2%5D=on&q=",
+      "active": false
+    },
+    "loginConfig": {
+      "formInputs": [],
+      "loginIsFirstPage": false,
+      "formSelector": null
+    },
+    "signupConfig": {
+      "formInputs": [],
+      "formSelector": null,
+      "active": false
+    }
+  },
+  "permissions": {
+    "usesGeolocation": false
+  },
+  "publishing": {},
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "disown": "reload",
+            "url": "http://childs.forpreviewonly.com/uk/"
+          }
+        ]
+      }
+    ]
+  },
+  "services": {
+    "push": {
+      "active": false
+    },
+    "analytics": {
+      "active": false
+    },
+    "registration": {
+      "endpoints": [
+        {
+          "dataType": [
+            "parse",
+            "oneSignal"
+          ],
+          "urlRegex": null,
+          "url": null
+        }
+      ],
+      "active": false
+    },
+    "oneSignal": {
+      "applicationId": "2271c265-17e7-4aa0-ac33-e390f5c8356f",
+      "active": true,
+      "googleProjectId": "328580220991"
+    },
+    "facebook": {
+      "active": true,
+      "appId": "1449711758388124",
+      "displayName": "Childsplay Clothing"
+    },
+    "parse": {
+      "pushEnabled": false,
+      "active": false
+    }
+  }
+}
